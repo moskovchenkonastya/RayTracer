@@ -1,0 +1,45 @@
+﻿Build started 27.11.15 3:51:12.
+     1>Project "\\psf\Home\Desktop\ио_няшки\RayTracer\src\RayTracer.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\RayTracer.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\glm /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Tracer.cpp
+         Tracer.cpp
+     1>Tracer.cpp(43): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>Tracer.cpp(55): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>Tracer.cpp(68): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>Tracer.cpp(69): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>Tracer.cpp(89): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>Tracer.cpp(90): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>Tracer.cpp(269): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>Tracer.cpp(269): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>Tracer.cpp(272): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>Tracer.cpp(272): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>Tracer.cpp(275): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>Tracer.cpp(275): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>Tracer.cpp(278): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>Tracer.cpp(278): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>Tracer.cpp(281): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>Tracer.cpp(281): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>Tracer.cpp(260): warning C4101: 'l1' : unreferenced local variable
+     1>Tracer.cpp(260): warning C4101: 'l2' : unreferenced local variable
+     1>Tracer.cpp(318): warning C4244: '=' : conversion from 'float' to 'unsigned char', possible loss of data
+     1>Tracer.cpp(319): warning C4244: '=' : conversion from 'float' to 'unsigned char', possible loss of data
+     1>Tracer.cpp(320): warning C4244: '=' : conversion from 'float' to 'unsigned char', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"\\psf\Home\Desktop\ио_няшки\RayTracer\src\..\bin\RayTracer.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\RayTracer.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"\\psf\Home\Desktop\ио_няшки\RayTracer\bin\RayTracer.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"\\psf\Home\Desktop\ио_няшки\RayTracer\src\..\bin\RayTracer.lib" /MACHINE:X86 Release\Main.obj
+         Release\Scene.obj
+         Release\Tracer.obj
+         Generating code
+         Finished generating code
+         RayTracer.vcxproj -> \\psf\Home\Desktop\ио_няшки\RayTracer\src\..\bin\RayTracer.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"\\psf\Home\Desktop\ио_няшки\RayTracer\src\..\bin\RayTracer.exe;#1" /manifest Release\RayTracer.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\RayTracer.unsuccessfulbuild".
+         Touching "Release\RayTracer.lastbuildstate".
+     1>Done Building Project "\\psf\Home\Desktop\ио_няшки\RayTracer\src\RayTracer.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.68
